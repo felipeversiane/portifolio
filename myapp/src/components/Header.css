@@ -1,0 +1,14 @@
+.bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: black;
+  transition: width 0.3s ease-in-out;
+}
+
+a:hover .bar {
+  width: 100%;
+}
+
