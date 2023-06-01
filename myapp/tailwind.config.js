@@ -3,6 +3,7 @@ module.exports = {
   content: [
     './src/App.js',
     './src/components/Header.js',
+    './src/components/Main.js',
     './pages//*.{js,jsx,ts,tsx,html}',
     './components//*.{js,jsx,ts,tsx,html}'
   ],
@@ -20,7 +21,8 @@ module.exports = {
       },
       colors : {
         primary_blue: '#192a57',
-        secondary_blue: '#4675de'
+        secondary_blue: '#4675de',
+        tirth_blue: '#0084ff'
       },
     },
   },
