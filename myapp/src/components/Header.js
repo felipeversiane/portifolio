@@ -5,7 +5,7 @@ import "./Header.css";
 function Header() {
     return (
         <header>
-          <div className="w-all h-[5rem] flex items-center justify-between">
+          <div className="w-all h-[5rem] flex items-center justify-between ">
           <div className="w-fit h-fit">
               <a
                 href="#home"
@@ -40,7 +40,7 @@ function Header() {
               
             </nav>
             <div class="button w-fit h-fit">
-              <button className="select-none bg-gradient-to-r from-primary_blue to-tirth_blue text-white rounded-lg px-4 py-1 transition duration-300 ease-in-out mr-[3rem] font-montserrat font-bold hover:transform hover:scale-105 hover:shadow-2xl">
+              <button className="select-none bg-gradient-to-r from-primary_blue to-tirth_blue text-white rounded-lg px-6 py-1 transition duration-300 ease-in-out mr-[3rem] font-montserrat font-bold hover:transform hover:scale-105 ">
                 LET'S TALK
               </button>
             </div>
