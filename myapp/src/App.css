@@ -1,0 +1,5 @@
+.bg-svg {
+    background-image: url('./images/background-gradient.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
