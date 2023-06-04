@@ -1,15 +1,8 @@
-import React, { useState } from "react";
 import "./style/Header.css";
 import brazilFlag from "../images/brazilFlag.png";
 import usaFlag from "../images/usaFlag.png";
 
-function Header() {
-  const [language, setLanguage] = useState("pt");
-
-  const handleLanguageChange = () => {
-    setLanguage(language === "en" ? "pt" : "en");
-  };
-
+function Header({ language, onLanguageChange }) {
   return (
     <header>
       <div className="bg-transparent w-all h-[5rem] flex items-center justify-between">
@@ -49,7 +42,7 @@ function Header() {
         <div className="flex items-center">
           <button
             className="select-none bg-transparent rounded-full w-10 h-10 flex items-center justify-center ml-[2rem] transition duration-300 ease-in-out hover:bg-gray-200"
-            onClick={handleLanguageChange}
+            onClick={onLanguageChange}
           >
             <img
               src={language === "en" ? brazilFlag : usaFlag}
