@@ -41,7 +41,7 @@ function Header({ language, onLanguageChange }) {
         </nav>
         <div className="flex items-center">
           <button
-            className="select-none bg-transparent rounded-full w-10 h-10 flex items-center justify-center ml-[2rem] transition duration-300 ease-in-out hover:bg-gray-200"
+            className="button  select-none bg-transparent rounded-full w-10 h-10 flex items-center justify-center ml-[2rem] transition duration-300 ease-in-out hover:bg-gray-200"
             onClick={onLanguageChange}
           >
             <img
